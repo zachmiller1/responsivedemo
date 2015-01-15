@@ -1,0 +1,138 @@
+/*========================
+		General
+==========================*/
+body {
+	font-family: Arial, sans-serif;
+	background: rgba(230, 19, 19, 1);
+	color: #fff;
+}
+
+h1, h2, h3, h4 {
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 1.25em;
+}
+
+h2 {
+	font-size: 1.125em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+
+/*========================
+		Layout
+==========================*/
+
+.siteWrapper, .container, header a{
+	border-radius: 10px;
+}
+
+.siteWrapper {
+	background: rgba(0, 0, 0, .2);
+	margin: 4% 1%;
+	padding: 1em .625em;
+}
+
+.container {
+	background: rgba(0, 0, 0, .5);
+	margin: .625em 0;
+	padding: .875em 1.25em;
+}
+
+header.container {
+	margin-top: 0;
+}
+
+
+/*========================
+	  Header
+==========================*/
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	list-style: none;
+}
+
+header a {
+	display: block;
+	text-align: center;
+	padding: 1em 0;
+	margin-top: .625em;
+	background: rgba(0, 0, 0, .5);
+}
+
+header a:last-child {
+	margin-bottom: .625em;
+}
+
+
+/*========================
+	  	 Footer
+==========================*/
+
+footer p {
+	font-size: .75em;
+}
+
+
+
+/*========================
+	  Media Queries
+==========================*/
+
+
+/*========================
+	  	 480px
+==========================*/
+
+@media screen and (min-width: 480px) {
+	
+	/* Change Background Color */
+	body {
+		background: #EEAE14;
+	}
+}
+
+
+/*========================
+	  	 768px
+==========================*/
+
+@media screen and (min-width: 768px) {
+	
+	/* Change Background Color */
+	body {
+		background: #7FEB15;
+	}
+
+
+}
+
+
+
+
