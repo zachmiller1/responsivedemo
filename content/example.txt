@@ -1,0 +1,31 @@
+Responsive Web Design
+
+Fluid Grids
+Flexible Images
+Media Queries
+
+
+What does "responsive" mean?
+
+Responsive web design (RWD) is an approach to web design aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones).
+
+A site designed with RWD adapts the layout to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries, an extension of the @media rule, in the following ways:
+
+	The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.
+	
+	Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element.
+	
+	Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser.
+			
+
+Ethan Marcotte
+
+CSS3 media queries were almost ready for prime time in late 2008/early 2009. Ethan Marcotte coined the term responsive web design (RWD)&mdash;and defined it to mean fluid grid/ flexible images/ media queries&mdash;in a May 2010 article in A List Apart. He described the theory and practice of responsive web design in his brief 2011 book titled Responsive Web Design. Responsive design was listed as #2 in Top Web Design Trends for 2012 by .net magazine after progressive enhancement at #1.
+
+Gaining Momentum
+
+Forbes featured a piece, "Why You Need To Prioritize Responsive Design Now" where the importance was made clear that having a mobile version of your website isn’t enough anymore. Jody Resnick, President of Trighton Interactive stated in his interview with Forbes, "Responsive websites simplify internet marketing and SEO. Instead of having to develop and manage content for multiple websites, businesses with responsive sites can take a unified approach to content management because they have only the one responsive site to manage."
+
+
+
+"Mobile first", unobtrusive JavaScript, and progressive enhancement are related concepts that predate RWD. Browsers of basic mobile phones do not understand JavaScript or media queries, so a recommended practice is to create a basic web site and enhance it for smart phones and PCs, rather than rely on graceful degradation to make a complex, image-heavy site work on mobile phones.
